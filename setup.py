@@ -8,10 +8,5 @@ setup(
         "PySide6",
         "arxiv",
         "sqlite3"
-    ],
-    entry_points={
-        "gui_scripts": [
-            "arXivScraper = arXivScraper.main:main",
-        ]
-    },
+    ]
 )
