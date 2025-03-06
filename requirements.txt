@@ -1,0 +1,19 @@
+arxiv @ file:///home/conda/feedstock_root/build_artifacts/arxiv_1735144958965/work
+Brotli @ file:///C:/b/abs_c415aux9ra/croot/brotli-split_1736182803933/work
+certifi @ file:///C:/b/abs_8a944p1_gn/croot/certifi_1738623753421/work/certifi
+charset-normalizer @ file:///croot/charset-normalizer_1721748349566/work
+Cython @ file:///C:/b/abs_ff8225lims/croot/cython_1736261540555/work
+feedparser @ file:///home/conda/feedstock_root/build_artifacts/feedparser_1734808041952/work
+idna @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/idna_1729038997316/work
+plyer @ file:///home/conda/feedstock_root/build_artifacts/plyer_1735831990936/work
+pyjnius @ file:///D:/bld/pyjnius_1732062346295/work
+PySide6==6.8.2
+PySimpleGUI @ file:///home/conda/feedstock_root/build_artifacts/pysimplegui_1684995683167/work
+PySocks @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/pysocks_1729039320841/work
+requests @ file:///C:/b/abs_c3508vg8ez/croot/requests_1731000584867/work
+setuptools==75.8.0
+sgmllib3k @ file:///Users/ktietz/demo/mc3/conda-bld/sgmllib3k_1630650258356/work
+shiboken6==6.8.2
+urllib3 @ file:///C:/b/abs_7bst06lizn/croot/urllib3_1737133657081/work
+wheel==0.45.1
+win_inet_pton @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/win_inet_pton_1729038644686/work
