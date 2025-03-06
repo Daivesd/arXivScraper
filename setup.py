@@ -1,11 +1,9 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name="arXivScraper",
     version="1.0",
-    description="A nice description",
-    author=".",
-    packages=["arXivScraper"],
+    packages=find_packages,
     install_requires=[
         "PySide6",
         "arxiv",
