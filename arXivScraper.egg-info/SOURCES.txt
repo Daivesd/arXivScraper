@@ -1,0 +1,10 @@
+setup.py
+arXivScraper/_init_.py
+arXivScraper/check_db.py
+arXivScraper/main.py
+arXivScraper.egg-info/PKG-INFO
+arXivScraper.egg-info/SOURCES.txt
+arXivScraper.egg-info/dependency_links.txt
+arXivScraper.egg-info/entry_points.txt
+arXivScraper.egg-info/requires.txt
+arXivScraper.egg-info/top_level.txt

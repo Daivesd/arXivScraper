@@ -1,0 +1,3 @@
+PySide6
+arxiv
+sqlite3
