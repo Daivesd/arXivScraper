@@ -24,7 +24,7 @@ You can build your own executable usint pyinstaller:
 1. Open terminal and cd to the directory where the code sits
 2. run <code>pyinstaller --onefile --windowed main.py</code>
 3. The executable is in the dist folder
-(4. To use an icon: <code>pyinstaller --onefile --icon=your_icon.ico your_script.py</code>
+4. Optional: To use an icon: <code>pyinstaller --onefile --icon=your_icon.ico your_script.py</code>
 ### Linux
 1. Open terminal and cd to the directory where the code sits
 2. run <code>pyinstaller --onefile main.py</code> (I don't know if --windowed works)
