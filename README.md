@@ -39,3 +39,10 @@ You can build your own executable usint pyinstaller:
 ## Check Database
 - Use the built-in viewer
 - Use https://github.com/sqlitebrowser/sqlitebrowser. It's pretty cool.
+
+## Pictures
+![image](https://github.com/user-attachments/assets/fda4207e-6a5e-44de-a81c-21d5cf88afab)
+
+![image](https://github.com/user-attachments/assets/8f656153-c090-442b-bcaa-b6ad3773f923)
+
+
