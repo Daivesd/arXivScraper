@@ -11,7 +11,7 @@ Maybe something else :)
 
 ## How to run
 You can either:
-- Run the executable builds
+- Run the executable builds (Windows only)
 - Run the script directly: <code>pythonw main.py</code> to run the script unlinked with respect to the terminal
 - Build an executable yourself
 
