@@ -6,7 +6,8 @@ This thing finds papers on arXiv for given keywords and saves them do SQLite dat
 - arxiv
 - sqlite3
 - pandas
-Maybe something else
+  
+Maybe something else :)
 
 ## How to run
 You can either:
