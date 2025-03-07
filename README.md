@@ -1,6 +1,12 @@
 # arXiv Scraper
 This thing finds papers on arXiv for given keywords and saves them do SQLite database. The script can run in background (minimized to systray) and notiy you if it finds new papers - and automatically adds them to the database.
 
+Main window:
+![image](https://github.com/user-attachments/assets/fda4207e-6a5e-44de-a81c-21d5cf88afab)
+
+Built-in database viewer:
+![image](https://github.com/user-attachments/assets/8f656153-c090-442b-bcaa-b6ad3773f923)
+
 ## Dependencies
 - PySide6
 - arxiv
@@ -39,12 +45,3 @@ You can build your own executable usint pyinstaller:
 ## Check Database
 - Use the built-in viewer
 - Use https://github.com/sqlitebrowser/sqlitebrowser.
-
-## Pictures
-This is what the main program looks like:
-![image](https://github.com/user-attachments/assets/fda4207e-6a5e-44de-a81c-21d5cf88afab)
-
-This is the built-in database viewer:
-![image](https://github.com/user-attachments/assets/8f656153-c090-442b-bcaa-b6ad3773f923)
-
-
