@@ -9,7 +9,7 @@ class DatabaseViewer(QtWidgets.QWidget):
         super().__init__()
         self.db_path = db_path
         self.setWindowTitle("Database Viewer")
-        self.resize(800, 600)
+        self.resize(1000, 800)
         self.setup_ui()
         self.load_data()
     
@@ -90,5 +90,6 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     db_path = "Papers.db" 
     viewer = DatabaseViewer(db_path)
+    viewer.resize(1000, 800)
     viewer.show()
     sys.exit(app.exec())

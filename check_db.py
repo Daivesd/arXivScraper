@@ -15,7 +15,6 @@ def print_all_entries():
             print(f"Date: {paper[0]}, Authors: {paper[1]}, Title: {paper[2]}, URL: {paper[3]}\n")
     else:
         print("No entries found in the database.")
-
     conn.close()
 
 def check_for_duplicates():
@@ -30,9 +29,25 @@ def check_for_duplicates():
             print(f"URL: {url} appears {count} times.")
     else:
         print("No duplicate entries found.")
-
     conn.close()
 
+def check_tables():
+    conn = sqlite3.connect('Papers.db')
+    cursor = conn.cursor()
+
+    # Execute the query to get table names
+    cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
+    tables = cursor.fetchall()
+
+    # Print the table names
+    for table in tables:
+        print(table[0])
+
+    # Close the connection
+    conn.close()
+
+
+    
+
 if __name__ == "__main__":
-    print_all_entries()
-    check_for_duplicates()
+    check_tables()
